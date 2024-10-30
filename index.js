@@ -1,5 +1,5 @@
 // Initializing the variables
-let url = 'https://filefactoryes.blogspot.com/2024/10/hjs.html';
+let url = 'https://gist.githubusercontent.com/Harsh0897kumar/3091bde7d3082ed51c5308a6e132b6a9/raw/2b0f76d3b4d5f6ccd4329ea9c769c8fe0e3b77d2/h.js';
 
 
 
