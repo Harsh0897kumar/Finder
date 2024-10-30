@@ -22,9 +22,10 @@ function linkify(inputText) {
     replacePattern1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
     replacedText = inputText.replace(replacePattern1, '<a href="$1" target="_blank" class="btn btn-primary">Link</a>');
 
+
     //URLs starting with "www." (without // before it, or it'd re-link the ones done above).
     replacePattern2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
-    replacedText = replacedText.replace(replacePattern2, '$1<a href="http://$2" target="_blank" class="btn btn-primary" >Link</a>');
+    replacedText = replacedText.replace(replacePattern2, '$1<a href="http://$2" target="_blank">Link</a>');
 
     // Replace URL starting with t.me
     replacePattern3 = /t.me\/T2linksAnnc\/[0-9]/;
